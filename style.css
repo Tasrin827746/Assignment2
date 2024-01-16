@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* shared items */
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+h2 {
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.paragraph {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-heading {
+    color: #131318;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+/* Header Section Styles */
+header {
+    padding: 3% 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.web-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 span {
+    color: #FF5400;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.web-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu > li {
+    list-style: none;
+}
+
+ul > li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+ul > li > a.home, a:hover{
+    color: #FF5400;
+}
+
+#menu-bar {
+    display: none;
+}
+
+/* Banner Section Styles */
+
+.banner-section {
+    background-image: linear-gradient(180deg, rgba(49, 49, 143, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%), url("../resources/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: auto;
+    height: 500px;
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+    width: 80%;
+}
+
+.banner-content h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+.banner-content p {
+    margin-top: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-form {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    margin-top: 20px;
+}
+.where, .month, .place{
+    border-radius: 8px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    background: #FFF;
+    width: 160px;
+    height: 52px;
+    padding-left: 15px;
+    margin-left: 22px;
+}
+
+
+/* main section styles */
+
+main {
+    padding: 3% 10%;
+}
+
+.popular-tours {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-tours .text {
+    width: 48%;
+}
+
+.popular-img {
+    width: 48%;
+}
+
+.popular-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.destination {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.tourist-spot {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.picture {
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: white;
+    background-size: cover;
+}
+
+.picture:first-child {
+    background-image: url("../resources/Rectangle\ 5.png");
+    grid-column: 1/span 4;
+}
+
+.picture:nth-child(2) {
+    background-image: url("../resources/Rectangle\ 8.png");
+    grid-column: 5/span 4;
+}
+
+.picture.picture:nth-child(3) {
+    background-image: url("../resources/Rectangle\ 6.png");
+    grid-column: 1/span 2;
+}
+
+.picture:nth-child(6) {
+    background-image: url("../resources/Rectangle\ 11.png");
+    grid-column: 1/span 4;
+}
+
+.picture:nth-child(4) {
+    background-image: url("../resources/Rectangle\ 7.png");
+    grid-column: 3/span 4;
+}
+.picture:nth-child(5) {
+    background-image: url("../resources/Rectangle\ 9.png");
+    grid-column: 7/span 2;
+}
+
+.picture:nth-child(7) {
+    background-image: url("../resources/Rectangle\ 10.png");
+    grid-column: 5/span 4;
+}
+
+
+.reason-section {
+    margin-top: 80px;
+}
+
+.reason-text {
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 50px;
+}
+
+.reason-card {
+    border-radius: 1rem;
+    align-items: start;
+    padding: 1.4rem;
+}
+
+#card-color1{
+    background-color: rgba(248, 130, 213, 0.05);;
+    border: 1px solid rgba(41, 206, 246, 0.05);
+}
+#card-color2{
+    background-color: rgba(163, 146, 246, 0.05);;
+    border: 1px solid rgba(41, 206, 246, 0.05);
+}
+#card-color3{
+    background-color: rgba(251, 181, 99, 0.05);;
+    border: 1px solid rgba(41, 206, 246, 0.05);
+}
+
+.reason-card:first-child {
+    grid-column: 1/span 2;
+}
+
+.reason-card:nth-child(2) {
+    grid-column: 3/span 2;
+}
+
+.reason-card:last-child {
+    grid-column: 2/span 2;
+}
+
+.must-watch {
+    text-align: center;
+}
+
+.bang-spot {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3,0.5fr);
+    gap: 0.5rem;
+}
+
+.ban {
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 2rem;
+    color: rgb(229, 238, 108);
+    background-size: cover;
+}
+
+.ban:first-child {
+    background-image: url("../resources/bandarban.jpg");
+    grid-column: 1/span 4;
+}
+
+.ban:nth-child(2) {
+    background-image: url("../resources/Nijhum.jpg");
+    grid-column: 5/span 4;
+}
+
+.ban.ban:nth-child(3) {
+    background-image: url("../resources/jaflong.jpg");
+    grid-column: 1/span 2;
+}
+
+.ban:nth-child(4) {
+    background-image: url("../resources/cox.jpg");
+    grid-column: 3/span 4;
+}
+.ban:nth-child(5) {
+    background-image: url("../resources/saint.jpg");
+    grid-column: 7/span 2;
+}
+  
+.discount {
+    margin-top: 80px;
+}
+
+.discount-text {
+    text-align: center;
+}
+
+
+#best-deals1 {
+    background-image: url("../resources/saintmar.jpg");
+    justify-content: left;
+    padding: 3.8rem 3.8rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    border-radius: 1rem;
+}
+#best-deals2 {
+    background-image: url("../resources/Group\ 39.png");
+    padding: 3.8rem 3.8rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: right;
+    border-radius: 1rem;
+}
+#best-deals3 {
+    background-image: url("../resources/Group\ 40.png");
+    padding: 3.8rem 3.8rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: left;
+    border-radius: 1rem;
+}
+
+.discount-card {
+    background: rgba(255, 255, 255, 0.80);
+    width: 52%;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    backdrop-filter: blur(2.5px);
+}
+
+span{
+    color: #FF5400;
+    font-weight: 400;
+}
+
+.price {
+    color: #FF5400;
+    font-size: 1.2;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.video-section {
+    margin-bottom: 10rem;
+  }
+  
+  .container {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+  }
+  
+  .video {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+  }
+  
+  .video-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 3rem;
+  }
+  
+  .video-content {
+    width: 50%;
+  }
+  
+
+.newsLetter-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsLetter-form {
+    width: 44%;
+    border: 1px solid #FF5400;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.input-button {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-button input {
+    padding: 4%;
+    background-color: rgba(19, 19, 24, 0.05);
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.newsLetter-img {
+    background-image: url("../resources/Rectangle\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    width: 52%;
+    position: relative;
+}
+
+.coupon-card {
+    color: white;
+    width: 50%;
+    background-color: #FF5400;
+    text-align: center;
+    transform: rotate(-20deg);
+    border-radius: 1rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 2.5rem;
+    right: .2rem;
+}
+
+.coupon-card p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.coupon-card h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px 150px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+}

@@ -1,0 +1,99 @@
+@media screen and (max-width: 600px) {
+        h2 {
+            font-size: 1.8rem;
+        }
+        h2>span {
+            font-size: 1.8rem;
+        }
+        .menu li {
+            display: none;
+        }
+        #menu-bar {
+            display: flex;
+        }
+        h3 {
+            font-size: 2.4rem;
+        }
+
+        p {
+            margin-top: 30px;
+            font-size: 0.8rem;
+        }
+        .banner-section{
+            flex-direction: column;
+            height: auto;
+        }
+        .banner-content{
+            width: 100%;
+        }
+        .banner-form {
+            flex-direction: column;  
+        }
+        .where, .month, .place {
+            width: 100%; 
+            margin-left: 0;
+        }
+        .popular-tours {
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        .text {
+            width: 100%;
+        }
+        .popular-img {
+            width: 100%;
+        }
+        .paragraph {
+            font-size: 0.8rem;
+        }
+        .tourist-spot {
+            display: flex;
+            flex-direction: column;
+        }
+        .reason-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        #best-deals1, #best-deals2,#best-deals3 {
+            justify-content: center;
+            padding: 1rem;
+            padding-top: 10rem;
+        }
+
+        .discount-card {
+            width: 100%;
+        }
+
+        .bang-spot {
+            display: flex;
+            flex-direction: column;
+        }
+        .newsLetter-section {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .newsLetter-form {
+            width: 100%;
+        }
+
+        .newsLetter-img {
+            width: 100%;
+            height: 300px;
+        }
+
+        .coupon-card p {
+            font-size: .5rem;
+        }
+
+        .coupon-card h3 {
+            font-size: 1rem;
+        }
+
+        footer {
+            padding: 60px 60px;
+        }
+}
