@@ -79,6 +79,9 @@
           .video, .video-content {
             width: 100%;
           }
+          .video h2{
+            margin-top: 30px;
+          }
         
           .text-list {
             margin-left: 0;
