@@ -97,7 +97,7 @@ ul > li > a.home, a:hover{
 /* Banner Section Styles */
 
 .banner-section {
-    background-image: linear-gradient(180deg, rgba(49, 49, 143, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%), url("../resources/Group\ 13\ \(1\)\ \(1\).png");
+    background-image: linear-gradient(180deg, rgba(49, 49, 143, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%), url("Group\ 13\ \(1\)\ \(1\).png");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -201,36 +201,36 @@ main {
 }
 
 .picture:first-child {
-    background-image: url("../resources/Rectangle\ 5.png");
+    background-image: url("Rectangle\ 5.png");
     grid-column: 1/span 4;
 }
 
 .picture:nth-child(2) {
-    background-image: url("../resources/Rectangle\ 8.png");
+    background-image: url("Rectangle\ 8.png");
     grid-column: 5/span 4;
 }
 
 .picture.picture:nth-child(3) {
-    background-image: url("../resources/Rectangle\ 6.png");
+    background-image: url("Rectangle\ 6.png");
     grid-column: 1/span 2;
 }
 
 .picture:nth-child(6) {
-    background-image: url("../resources/Rectangle\ 11.png");
+    background-image: url("Rectangle\ 11.png");
     grid-column: 1/span 4;
 }
 
 .picture:nth-child(4) {
-    background-image: url("../resources/Rectangle\ 7.png");
+    background-image: url("Rectangle\ 7.png");
     grid-column: 3/span 4;
 }
 .picture:nth-child(5) {
-    background-image: url("../resources/Rectangle\ 9.png");
+    background-image: url("Rectangle\ 9.png");
     grid-column: 7/span 2;
 }
 
 .picture:nth-child(7) {
-    background-image: url("../resources/Rectangle\ 10.png");
+    background-image: url("Rectangle\ 10.png");
     grid-column: 5/span 4;
 }
 
@@ -306,26 +306,26 @@ main {
 }
 
 .ban:first-child {
-    background-image: url("../resources/bandarban.jpg");
+    background-image: url("bandarban.jpg");
     grid-column: 1/span 4;
 }
 
 .ban:nth-child(2) {
-    background-image: url("../resources/Nijhum.jpg");
+    background-image: url("Nijhum.jpg");
     grid-column: 5/span 4;
 }
 
 .ban.ban:nth-child(3) {
-    background-image: url("../resources/jaflong.jpg");
+    background-image: url("jaflong.jpg");
     grid-column: 1/span 2;
 }
 
 .ban:nth-child(4) {
-    background-image: url("../resources/cox.jpg");
+    background-image: url("cox.jpg");
     grid-column: 3/span 4;
 }
 .ban:nth-child(5) {
-    background-image: url("../resources/saint.jpg");
+    background-image: url("saint.jpg");
     grid-column: 7/span 2;
 }
   
@@ -339,7 +339,7 @@ main {
 
 
 #best-deals1 {
-    background-image: url("../resources/saintmar.jpg");
+    background-image: url("saintmar.jpg");
     justify-content: left;
     padding: 3.8rem 3.8rem;
     margin-bottom: 1.2rem;
@@ -347,7 +347,7 @@ main {
     border-radius: 1rem;
 }
 #best-deals2 {
-    background-image: url("../resources/Group\ 39.png");
+    background-image: url("Group\ 39.png");
     padding: 3.8rem 3.8rem;
     margin-bottom: 1.2rem;
     display: flex;
@@ -355,7 +355,7 @@ main {
     border-radius: 1rem;
 }
 #best-deals3 {
-    background-image: url("../resources/Group\ 40.png");
+    background-image: url("Group\ 40.png");
     padding: 3.8rem 3.8rem;
     margin-bottom: 1.2rem;
     display: flex;
@@ -447,7 +447,7 @@ span{
 }
 
 .newsLetter-img {
-    background-image: url("../resources/Rectangle\ 8\ \(1\).png");
+    background-image: url("Rectangle\ 8\ \(1\).png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1rem;
