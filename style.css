@@ -406,7 +406,7 @@ span{
     gap: 2rem;
   }
   
-  .video-list {
+  .text-list {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -418,9 +418,11 @@ span{
   }
   
 
-.newsLetter-section {
+  .newsLetter-section {
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
+   
 }
 
 .newsLetter-form {
@@ -437,7 +439,7 @@ span{
     gap: 1rem;
 }
 
-.input-button input {
+.input-button > input {
     padding: 4%;
     background-color: rgba(19, 19, 24, 0.05);
     border-radius: 0.6rem;
@@ -466,15 +468,16 @@ span{
     right: .2rem;
 }
 
-.coupon-card p {
+.coupon-card > p {
     font-size: 1rem;
     font-weight: 400;
 }
 
-.coupon-card h3 {
+.coupon-card > h3 {
     font-size: 1.4rem;
     font-weight: 800;
 }
+
 
 footer {
     background-color: rgba(19, 19, 24, 0.05);
