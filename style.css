@@ -97,7 +97,7 @@ ul > li > a.home, a:hover{
 /* Banner Section Styles */
 
 .banner-section {
-    background-image: linear-gradient(180deg, rgba(49, 49, 143, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%), url('../resources/Group13.png');
+    background-image: linear-gradient(180deg, rgba(49, 49, 143, 0.8) 0%, rgba(19, 19, 24, 0.00) 100%), url('./resources/Group13.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -201,36 +201,36 @@ main {
 }
 
 .picture:first-child {
-    background-image: url('../resources/Rectangle5.png');
+    background-image: url('./resources/Rectangle5.png');
     grid-column: 1/span 4;
 }
 
 .picture:nth-child(2) {
-    background-image: url('../resources/Rectangle8.png');
+    background-image: url('./resources/Rectangle8.png');
     grid-column: 5/span 4;
 }
 
 .picture.picture:nth-child(3) {
-    background-image: url('../resources/Rectangle6.png');
+    background-image: url('./resources/Rectangle6.png');
     grid-column: 1/span 2;
 }
 
 .picture:nth-child(6) {
-    background-image: url('../resources/Rectangle11.png');
+    background-image: url('./resources/Rectangle11.png');
     grid-column: 1/span 4;
 }
 
 .picture:nth-child(4) {
-    background-image: url('../resources/Rectangle7.png');
+    background-image: url('./resources/Rectangle7.png');
     grid-column: 3/span 4;
 }
 .picture:nth-child(5) {
-    background-image: url('../resources/Rectangle9.png');
+    background-image: url('./resources/Rectangle9.png');
     grid-column: 7/span 2;
 }
 
 .picture:nth-child(7) {
-    background-image: url('../resources/Rectangle10.png');
+    background-image: url('./resources/Rectangle10.png');
     grid-column: 5/span 4;
 }
 
@@ -314,21 +314,21 @@ main {
 }
 
 .ban:nth-child(2) {
-    background-image: url('../resources/Nijhum.jpg');
+    background-image: url('./resources/Nijhum.jpg');
     grid-column: 5/span 4;
 }
 
 .ban.ban:nth-child(3) {
-    background-image: url('../resources/jaflong.jpg');
+    background-image: url('./resources/jaflong.jpg');
     grid-column: 1/span 2;
 }
 
 .ban:nth-child(4) {
-    background-image: url('../resources/cox.jpg');
+    background-image: url('./resources/cox.jpg');
     grid-column: 3/span 4;
 }
 .ban:nth-child(5) {
-    background-image: url('../resources/saint.jpg');
+    background-image: url('./resources/saint.jpg');
     grid-column: 7/span 2;
 }
   
@@ -342,7 +342,7 @@ main {
 
 
 #best-deals1 {
-    background-image: url('../resources/saintmar.jpg');
+    background-image: url('./resources/saintmar.jpg');
     justify-content: left;
     padding: 3.8rem 3.8rem;
     margin-bottom: 1.2rem;
@@ -350,7 +350,7 @@ main {
     border-radius: 1rem;
 }
 #best-deals2 {
-    background-image: url('../resources/Group39.png');
+    background-image: url('./resources/Group39.png');
     padding: 3.8rem 3.8rem;
     margin-bottom: 1.2rem;
     display: flex;
@@ -358,7 +358,7 @@ main {
     border-radius: 1rem;
 }
 #best-deals3 {
-    background-image: url('../resources/Group40.png');
+    background-image: url('./resources/Group40.png');
     padding: 3.8rem 3.8rem;
     margin-bottom: 1.2rem;
     display: flex;
