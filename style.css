@@ -314,21 +314,21 @@ main {
 }
 
 .ban:nth-child(2) {
-    background-image: url('./resources/Nijhum.jpg');
+    background-image: url('./resources/bandarban.jpg');
     grid-column: 5/span 4;
 }
 
 .ban.ban:nth-child(3) {
-    background-image: url('./resources/jaflong.jpg');
+    background-image: url('./resources/bandarban.jpg');
     grid-column: 1/span 2;
 }
 
 .ban:nth-child(4) {
-    background-image: url('./resources/cox.jpg');
+    background-image: url('./resources/bandarban.jpg');
     grid-column: 3/span 4;
 }
 .ban:nth-child(5) {
-    background-image: url('./resources/saint.jpg');
+    background-image: url('./resources/bandarban.jpg');
     grid-column: 7/span 2;
 }
   
