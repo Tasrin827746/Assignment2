@@ -314,7 +314,7 @@ main {
 }
 
 .ban:nth-child(2) {
-    background-image: url('/resources/Nijhum.jpg');
+    background-image: url('./resources/Nijhum.jpg');
     grid-column: 5/span 4;
 }
 
