@@ -309,7 +309,7 @@ main {
 }
 
 .ban:first-child {
-    background-image: url('../resources/bandarban.jpg');
+    background-image: url('./resources/bandarban.jpg');
     grid-column: 1/span 4;
 }
 
